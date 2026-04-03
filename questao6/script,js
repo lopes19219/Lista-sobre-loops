@@ -1,0 +1,11 @@
+let usuario = {
+    Nome: "Gabriel",
+    Universidade: "Unijorge",
+    Curso: "ADS",
+    Idade: 19
+};
+
+for(let info in usuario){
+    console.log('Campo: ' + info);
+    console.log('Valor: ' + usuario[info]);
+}
